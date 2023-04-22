@@ -1,0 +1,103 @@
+.hero-section {
+  background-color: #fefaf5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.5rem  5rem;
+}
+
+.hero-section_left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 55%;
+
+}
+
+.hero-heading {
+  font-size: 2rem;
+  color: #335576;
+  width: 80%;
+}
+
+.hero-img {
+  display: inline-block;
+  width: 26rem;
+}
+
+.hero-paragraph {
+  font-size: 1em;
+  font-weight: 300;
+  color: #335576;
+  width: 100%;
+  text-align: left;
+
+}
+
+.hero-button {
+  width: 30%;
+  background-color: #DB7A4E;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+  height: 2rem;
+  border-radius: 25px;
+  border: 0;
+  width: 10rem;
+}
+
+.main-content {
+  padding: 1.25rem 3rem 4rem 3rem;
+}
+
+.main-content_heading {
+  color: #335576;
+  font-size: 1.25rem;
+  padding: 2rem 0 1.25rem 1.5rem;
+}
+
+.main-content_card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  height: 24.5rem;
+}
+
+.main-content_cards {
+  width: 16rem;
+  height: 23.9rem;
+  border: 1px solid black 20%;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.card-1,
+.card-2,
+.card-3 {
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.card-1 {
+  background-image: url(../assets/images/hawaii.jpg);
+}
+
+.card-2 {
+  background-image: url(../assets/images/iceland.jpg);
+}
+
+.card-3 {
+  background-image: url(../assets/images/greece.jpg);
+ }
+
+.card-heading {
+  position: absolute;
+  top: 90%;
+  left: 67%;
+  color: #fff;
+  font-weight: 700;
+}

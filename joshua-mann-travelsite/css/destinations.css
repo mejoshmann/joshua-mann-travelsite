@@ -1,0 +1,53 @@
+
+
+.main-section {
+    position: relative;
+}
+
+.background-img_hawaii {
+    position: absolute;
+    object-fit: cover;
+    width: 100vw;
+    height: 100%;
+    z-index: -1;
+}
+
+.destination-heading {
+    color: #fff;
+    font-size: 4rem;
+    position: absolute;
+    margin-left: 5rem;
+    padding-top: 5rem;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    gap: 2rem;
+}
+
+.activity-cards {
+    background-color: #fff;
+    width: 15.6rem;
+    height: 22rem;
+    margin-top: 7rem; 
+    border-radius: 5px;
+    text-align: center;
+    padding: .5rem;
+}
+
+.activity-card_day {
+    border-bottom: 1px soild black;
+    margin: .5rem .5rem 1.8rem .5rem;
+    border-bottom: 3px solid black;    
+}
+
+.activity-card_activity {
+    background-color: #fefaf5;
+    font-weight: 300;
+    height: 3rem;
+    margin: .5rem .5rem .8rem .5rem;
+}
